@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.s1mple.dao.CheckItemDao">
+    <insert id="add" parameterType="com.s1mple.pojo.CheckItem">
+        insert into t_checkitem(code,name,sex,age,price,type,remark,attention)
+        values
+            (#{code},#{name},#{sex},#{age},#{price},#{type},#{remark},#{attention})
+    </insert>
+
+
+    <select id="selectByCondition" parameterType="String" resultType="com.s1mple.pojo.CheckItem">
+        select * from t_checkitem
+        <if test="value != null and value.length > 0">
+            where code = #{value} or name = #{value}
+        </if>
+    </select>
+
+
+    <delete id="deleteById" parameterType="Integer">
+        delete from t_checkitem where id = #{id}
+    </delete>
+
+
+
+    <select id="findCountByCheckItemId" parameterType="int" resultType="long">
+        select count(*) from t_checkgroup_checkitem where checkitem_id = #{id}
+    </select>
+
+
+
+
+    <!--最好是使用set标签看看哪个有才修改   因为如果新增数据项便于维护-->
+    <update id="updateById" parameterType="com.s1mple.pojo.CheckItem">
+        update t_checkitem set code=#{code},name=#{name},sex=#{sex},age=#{age},price=#{price},type=#{type},attention=#{attention},remark=#{remark} where id=#{id}
+    </update>
+
+
+    <select id="findAll" resultType="com.s1mple.pojo.CheckItem">
+        select * from t_checkitem
+    </select>
+
+    <!--根据检查组id查询检查项信息-->
+    <select id="findCheckItemById" resultType="com.s1mple.pojo.CheckItem">
+        select * from t_checkitem
+        where id
+                  in (select checkitem_id from t_checkgroup_checkitem where checkgroup_id=#{id})
+    </select>
+</mapper>

@@ -1,0 +1,7 @@
+server:
+  port: 9004
+xxl:
+  job:
+    admin:
+      addresses: http://120.46.137.95:8999/xxl-job-admin
+    accessToken: default_token

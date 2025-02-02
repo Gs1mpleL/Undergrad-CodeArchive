@@ -1,0 +1,1134 @@
+1,机组,实现并行机制的途径,时间重叠、资源重复、时间+资源、资源共享
+2,机组,资源共享是一种（）方式，是一种软件方法，使多个任务按一定时间顺序轮流使用同一套硬件设备,软件
+3,机组,交叉开关网络是什么，有什么优势和劣势,类似五子棋谱，优势：是无阻塞网络、建立连接时不需要事先规划。劣势：交叉开关网络的复杂度随网络端口数量的平方级增
+4,机组,Omega网络开关个数计算,n个输入的Omega网络需要log2n级2×2开关；每级n/2个开关模块； 共需(log2n)×(n/2)个开关。
+5,机组,环形网络最大的特点是,具有对称性，从任何结点看到的拓扑结构都是一样的，可以负载均衡
+6,机组,UMA和NUMA的意思,Uniform Memory Access、Non-Uniform Memory Access
+7,机组,COMA的意思,Cache Only Memory Access
+8,机组,SMP是什么？,如果在一个系统中，每个CPU都能平等地访问所有的内存模块和输入/输出设备，而且在操作系统看来这些CPU是可以互换的，那么这种系统就是对称多处理器系统（Symmetric Multi-Processor，SMP）
+9,机组,UMA、NUMA、SMP是哪个并行层次的概念,多处理器系统
+10,机组,多计算机系统是什么？,由独立的计算机作为节点、通过高速互连网络相互连接而构成的系统
+11,机组,MMP是什么，是什么并行层次的概念,大规模并行处理器，多计算机结构
+12,机组,MMP系统的特点,MPP系统使用高性能的定制的高速互连网络及网络接口，可以在低延迟和高带宽的条件下传递消息。
+13,数学,无穷级数审敛法的适用条件,正项级数
+14,数学,偶数项级数和奇数项级数收敛，是原级数收敛的什么条件？,充要条件
+15,数学,fx展开成x-1的幂级数的步骤（历年真题p131）,最后一步除法老忘
+41,数学,A可以分解为关于（特征值，特征向量）的表达式,A=特征值*特征向量的丈量积之和
+42,机组,存取周期和总线周期的区别,存取周期对于存储器而言，两次存取操作最少等待时间，总线周期对于CPU而言，CPU执行一次内存存取操作数据传输需要的时间，DMA周期窃取方式窃取的是总线周期
+43,英语作文,提高效率,enhance efficiency 
+44,英语作文,便捷,convenience 
+45,数学,求曲面在XoY面投影时⚠️,记得联立z=0
+78,数据结构,什么遍历可以找到一个结点到它祖先的路径,后序遍历，因为访问到结点时，他的祖先肯定还没有出栈，就是未被访问
+79,机组,布斯乘法运算注意事项,1.计算进位时进位看清楚！2.演算时使用原数据的原码进行乘法，再前边添加符号位转为补码后验证
+80,机组,使用同步控制方式的总线总线长度与总线频率的关系,总线频率越高，总线长度越短
+81,机组,轮询总线仲裁轮询计数可以由软件程序控制,若循环计数则各设备优先级相同，若使用计数查询顺序，则优先级可以调整
+90,英语作文,我相信,I'm convinced that
+91,英语作文,非常,exceedingly
+92,英语作文,表示什么什么是什么什么的原因,It's reason that cause sb to sth
+93,英语作文,许多,a host of
+94,英语作文,显然地,Apparently
+95,英语作文,xxx以xxx为特点,be characterized by
+96,英语作文,让我能够获取到足够的知识,It's xxx that enable me to accumulated adequate knowledge
+97,英语作文,我认为,I deem that
+98,英语作文,典型的例子就是右图的场景,The typical example is the scenario in the right picture
+99,英语作文,氛围,phenomenon
+100,英语作文,正如我们看到的，这里展示了一个简单但典型的图片,"As we can see, here demonstrates one concise but symbolical picture  "
+101,英语作文,最后几个汉字在图片的下方，说xxx,"Finally，several Chinese characters can be noticed below the picture, which say that xxx "
+102,英语作文,上面的场景可以联系到两种对待xxx不同的态度,"Such a scene above, Apparently, can be associated with two distinct attitude towards xxx"
+103,英语作文,不得不承认,Admittedly
+104,英语作文,这种现象非常值得注意是因为,This phenomenon is particularly worth to be attention for the reason that xxx
+105,英语作文,xxx 可能会对xxx造成阻碍,xx may constitute an obstacle that hinders xxx
+106,英语作文,xxx需要记住xxx,xx should bear in mind that xx
+107,英语单词,travail,阵痛
+108,英语单词,concede,让步
+109,英语单词,stiff,不易弯曲的
+110,英语单词,allude,暗指
+111,英语单词,district,地区
+112,英语单词,concur,同意
+113,英语单词,impend,阻抗
+114,英语单词,albeit,尽管
+115,英语单词,inhibit,阻止
+116,英语单词,grievance,冤屈
+117,英语单词,attest,证明
+118,英语单词,mediocrity,平庸
+119,英语单词,hamper,妨碍
+120,英语单词,unwieldy,笨手笨脚的
+121,数学,AB=C时C与AB的关系,C可以由A的列向量组表出，（当把A看出一个向量组时它就是1xN或者Nx1，但是此时B矩阵是一个NxN的矩阵，所以只能把A矩阵写成1xN才能做乘法）
+126,英语作文,拓展视野,broaden the horizons
+135,英语作文,具体来说,to be specifice
+136,英语作文,我们不应该xxx，相反，xxx是明智的,"I deem that we are not supposed to xxx. Instead, it is advisable for us to xxx"
+137,机组,磁记录能力总结,调来调去效率低，老想归零不同步，MFM最牛逼
+139,英语单词,pronouncement,宣告
+140,英语作文,当代社会，对于人民来说xxx已经成为一种趋势,"In contemporary society, it has become a trend for people to xxx"
+141,英语作文,相比之下,by contrast
+142,英语作文,悠闲的,leisurely
+143,英语作文,在我看来，个人成功的特点是具有多种优秀品质，如勤奋、自信、毅力和总是为自己设定更高的目标。,"A personal successful, to my understanding, is charactered by    diverse excellent qualities, such as diligence, confidence, perseverance and always setting higher goals for themselves."
+144,数据结构,简单排序的特点,只有选择排序不稳定，空间复杂度都是O（1）
+145,机组,检测r位错误需要海明码距离,R+1
+146,机组,纠正R位错误，则编码的海明吗距位,2R+1
+147,英语单词,handicap,残障
+148,英语单词,driving force,驱动力
+149,英语单词,on the ropes,在绳索上
+150,英语单词,sensational,轰动的
+151,英语单词,solely,唯一地
+152,英语单词,wit,机智
+153,英语单词,ratio,比率
+154,英语单词,mortal,凡人
+155,英语单词,moral,道德的
+156,英语单词,fertile,肥沃的
+157,英语单词,offspring,孩子
+158,英语单词,descendant,后代
+159,英语单词,mediocrity,平庸
+160,英语单词,tribal,部落
+161,英语单词,ignorant,不了解的
+162,英语单词,ignore,忽视
+163,英语单词,savage,凶恶的
+164,英语单词,class,班
+165,英语单词,proposition,提议
+166,英语单词,rigid,固执的
+167,英语单词,assault,攻击
+168,英语单词,endure,忍耐
+169,英语单词,distinction,差别
+170,英语单词,destiny,命运
+171,英语单词,hypocrisy,伪善
+172,英语单词,barn,谷仓
+173,英语单词,vulgar,庸俗的
+174,英语单词,ample,充足的
+175,英语单词,radical,根本的
+176,英语单词,stir,搅动
+177,英语单词,profess,妄称
+178,英语单词,sly,狡猾的
+180,英语单词,split,分裂
+181,英语单词,spit,吐
+182,英语单词,integrate,整合
+183,英语单词,constitude,Constitude
+184,英语单词,optimistic,乐观的
+185,英语单词,wipe out,消灭
+186,英语单词,impoverish,使贫穷
+187,英语单词,illuminating,照明
+188,英语单词,plug,插头
+189,英语单词,metropolitan,大都会
+190,英语单词,upscale,高档的
+191,英语单词,clash,冲突
+192,英语单词,hyperactive,过度活跃
+193,英语单词,detrimental,有害的
+194,英语单词,scanty,不足的
+195,英语单词,resort,求助
+196,英语单词,infringe,侵犯
+197,英语单词,profile,轮廓
+198,英语单词,preach,布道
+199,英语单词,equivalent,相等的
+200,英语单词,thrift,节约
+202,英语单词,sympathy,同情
+203,英语单词,in sympathy with,同情
+204,英语单词,convention,习俗
+205,英语单词,accommodation,住处
+206,英语单词,entitle,赋予权利
+207,英语单词,inedible,不能食用的
+208,英语单词,disparage,贬损
+209,英语单词,disparaging,贬低
+210,英语单词,2003,2003
+211,英语单词,mutually,相互地
+212,英语单词,vacuum,真空
+213,英语单词,vaccine,疫苗
+214,英语单词,lean,前俯
+215,英语单词,conform,符合
+216,英语单词,conformist,循规蹈矩的人
+217,英语单词,phrase,短语
+218,英语单词,paraphrase,解释
+219,英语单词,vicious,恶毒的
+220,英语单词,compassionate,富有同情心的
+221,英语单词,term,学期
+222,英语单词,personality,性格
+223,英语单词,extinguish,熄灭
+224,英语单词,freight,货物
+225,英语单词,captive,俘虏
+226,英语单词,appeal,上诉
+227,英语单词,apprehensive,忧虑
+228,英语单词,comprehension,理解力
+229,英语单词,surge,激增
+230,英语单词,clinical,临床的
+231,英语单词,confront,直面
+232,英语单词,conflict,冲突
+233,英语单词,perish,死亡
+234,英语单词,fatal,致命的
+235,英语单词,finite,有限的
+236,英语单词,infinite,极大的
+237,英语单词,infirm,病弱的
+238,英语单词,extravagant,奢侈的
+239,英语单词,2004,2004
+240,英语单词,stumble,绊倒
+241,英语单词,stumble across,偶然发现
+242,英语单词,eliminate,排除
+243,英语单词,insidious,阴险的
+244,英语单词,conspicuous,引人注目的
+245,英语单词,ballot,投票
+246,英语单词,lag,缓慢移动
+247,英语单词,crucial,关键的
+248,英语单词,cruel,残酷的
+249,英语单词,temper,脾气
+250,英语单词,dreadful,糟糕透顶的
+251,英语单词,ingredient,成分
+252,英语单词,indignation,愤慨
+253,英语单词,entertain,招待
+254,英语单词,entertainer,艺人
+255,英语单词,pervasive,普遍的
+256,英语单词,bellyful,bellyful
+257,英语单词,innate,与生俱来的
+258,英语单词,rigorous,严格缜密的
+259,英语单词,ponder,思考
+260,英语单词,contemplative,沉思的
+261,英语单词,grip,紧握
+262,英语单词,2005,2005
+263,英语单词,vanish,消失
+264,英语单词,slack,松弛的
+265,英语单词,grievance,冤屈
+266,英语单词,assumption,假定
+267,英语单词,consume,消费
+268,英语单词,temperament,性情
+269,英语单词,cucumber,黄瓜
+270,英语单词,chamber,室
+271,英语单词,induce,诱导
+272,英语单词,righteous,公正的
+273,英语单词,reluctant,不情愿的
+274,英语单词,resentment,愤恨
+275,英语单词,abundant,大量的
+276,英语单词,as yet,到目前为止
+277,英语单词,enlist,征集
+278,英语单词,fume,大为生气
+279,英语单词,prudent,谨慎的
+280,英语单词,sound,声音
+281,英语单词,formulate,制定
+282,英语单词,disguise,假扮
+283,英语单词,susceptible,易受影响
+284,英语单词,recur,重现
+285,英语单词,elevate,提升
+286,英语单词,dialect,地方话
+287,英语单词,2006,2006
+288,英语单词,homogenize,均匀化
+289,英语单词,discourse,论文
+290,英语单词,deference,尊敬
+291,英语单词,intimate,亲密的
+292,英语单词,unprecedented,前所未有的
+293,英语单词,live off,靠生活
+294,英语单词,beard,胡须
+295,英语单词,predator,捕食者
+296,英语单词,prey,猎物
+297,英语单词,halve,减半
+298,英语单词,saturate,使湿透
+299,英语单词,phony,伪造的
+300,英语单词,dedicate,奉献
+301,英语单词,beam,梁
+302,英语单词,bummer,真倒霉
+303,英语单词,2007,2007
+304,英语单词,tournament,锦标赛
+305,英语单词,quirk,怪癖
+306,英语单词,pronounce,发音
+307,英语单词,pronounced,明显的
+308,英语单词,superior,优越的
+309,英语单词,stamina,耐力
+310,英语单词,conceive,想出
+311,英语单词,spotlight,聚光灯
+312,英语单词,account for,对…负有责任
+313,英语单词,genetically,遗传上地
+314,英语单词,intuitive,直觉的
+315,英语单词,swamp,沼泽
+316,英语单词,biography,传记
+317,英语单词,biology,生物学
+318,英语单词,startling,惊人的
+319,英语单词,overrate,高估
+320,英语单词,deduce,推论
+321,英语单词,elude,躲避
+322,英语单词,correlate,相关
+323,英语单词,encompass,包含
+324,英语单词,toil,辛苦工作
+325,英语单词,spouse,配偶
+326,英语单词,count on,指望
+327,英语单词,pink slip,粉红色纸条
+328,英语单词,stripe,条纹
+329,英语单词,parachute,降落伞
+330,英语单词,deprive,剥夺
+331,英语单词,lay off,裁员
+332,英语单词,get laid off,被解雇
+333,英语单词,fluctuation,波动
+334,英语单词,outlive,比…活得长
+335,英语单词,feeble,虚弱的
+336,英语单词,severity,严重性
+337,英语单词,intricate,错综复杂的
+338,英语单词,redundancy,冗余
+339,英语单词,go astray,误入歧途
+340,英语单词,2008,2008
+341,英语单词,sphere,球
+342,英语单词,develop,发展
+343,英语单词,develop depression and anxiety disorders,发展为抑郁症和焦虑症
+344,英语单词,wear and tear,磨损
+345,英语单词,diffuse,弥漫的
+346,英语单词,confused,困惑的
+347,英语单词,rest with,休息
+348,英语单词,funding,基金
+349,英语单词,estimate,估计
+350,英语单词,eliminate,排除
+351,英语单词,hybrid,混合的
+352,英语单词,nutrient,营养物
+353,英语单词,by and large,大体上
+354,英语单词,jaw,颌
+355,英语单词,spur,马刺
+356,英语单词,bedrock,基岩
+357,英语单词,clause,条款
+358,英语单词,herd,兽群
+359,英语单词,dismiss A as B,开除A为B
+360,英语单词,perpetuate,延续
+361,英语单词,comply with,遵守
+362,英语单词,paternal,父系的
+363,英语单词,maternal,母亲的
+364,英语单词,rage,愤怒
+365,英语单词,hawk,鹰
+366,英语单词,overlap,重叠
+367,英语单词,recession,经济衰退
+368,英语单词,workforce,劳动力
+369,英语单词,deride,嘲笑
+370,英语单词,discipline,纪律
+371,英语单词,prior to,之前
+372,英语单词,shell out,为…花费一大笔钱
+373,英语单词,swab,棉签
+374,英语单词,saliva,唾液
+375,英语单词,lump together,挤在一起
+376,英语单词,consistently,一贯地
+377,英语单词,fall victim of,成为的受害者
+378,英语单词,virtuosity,精湛技艺
+379,英语单词,earnest,认真的
+380,英语单词,superstitious,迷信的
+381,英语单词,mock,嘲弄
+382,英语单词,illusory,虚幻的
+383,英语单词,2010,2010
+384,英语单词,inexorable,不可阻挡的
+385,英语单词,coverage,新闻报道
+386,英语单词,elaborate,复杂的
+387,英语单词,be tempted to,被诱惑
+388,英语单词,foremost,最重要的
+389,英语单词,retreat,退却
+390,英语单词,headlong retreat,仓促撤退
+391,英语单词,horizon,地平线
+392,英语单词,mourn,哀悼
+393,英语单词,scale back,缩减
+394,英语单词,about-face,关于脸
+395,英语单词,filing,归档
+396,英语单词,hedge,树篱
+397,英语单词,looming,逼近的
+398,英语单词,prevailing,盛行
+399,英语单词,compelling,引人入胜的
+400,英语单词,intuitively,凭直觉
+401,英语单词,plausible,看似合理的
+402,英语单词,cursory,粗略的
+403,英语单词,cascade,大量
+404,英语单词,propagate,传播
+405,英语单词,manipulate,操纵
+406,英语单词,moan,呻吟
+407,英语单词,regulator,监管者
+408,英语单词,paralysis,麻痹
+409,英语单词,concession,让步
+410,英语单词,give in to,屈服于
+411,英语单词,strain,拉紧
+412,英语单词,sober,未醉
+413,英语单词,conceivably,可想而知
+414,英语单词,pretentious,自命不凡的
+415,英语单词,formidable,可怕的
+416,英语单词,hitherto,迄今为止
+417,英语单词,composition,作文
+418,英语单词,cloak,斗篷
+419,英语单词,scrutinize,仔细检查
+420,英语单词,pronouncement,宣告
+421,英语单词,commodity,商品
+422,英语单词,leverage,影响力
+423,英语单词,allegation,指控
+424,英语单词,boycott,抵制
+425,英语单词,dampen,抑制
+426,英语单词,procreation,生殖
+427,英语单词,gape,张嘴
+428,英语单词,dumb,哑的
+429,英语单词,glamorous,迷人的
+430,英语单词,canon,原则
+431,英语单词,post,邮递
+432,英语单词,faculty,官能
+433,英语单词,prerequisite,先决条件
+434,英语单词,detach,拆卸
+435,英语单词,holistic,全面的
+436,英语单词,resist,抵制
+437,英语单词,insist,坚决要求
+438,英语单词,consist,包括
+439,英语单词,illusion,幻觉
+440,英语单词,contention,争吵
+441,英语单词,inferior,较差的
+443,英语单词,guardian,守护者
+444,英语单词,impartial,公正的
+445,英语单词,at the very least,至少
+446,英语单词,subject to,从属于
+447,英语单词,judiciary,司法机关
+448,英语单词,envision,展望
+449,英语单词,envision as,设想为
+450,英语单词,cultivate,培养
+451,英语单词,prone,有做…倾向的
+452,英语单词,dismiss as,将...看作...而拒绝接受
+453,英语单词,split,分裂
+454,英语单词,split along,沿拆分
+455,英语单词,address doubt,解决疑问
+456,英语单词,obstacle,障碍
+457,英语单词,a cause of,的原因
+458,英语单词,perceptive,感性的
+459,英语单词,critique,评论文章
+460,英语单词,recruit,招募
+461,英语单词,exert,发挥
+462,英语单词,tactic,策略
+463,英语单词,abide,遵守
+464,英语单词,aging,变老
+465,英语单词,precedent,先例
+466,英语单词,obscure,模糊的
+467,英语单词,carry out,实施
+468,英语单词,abound,大量
+469,英语单词,A be thought of as B,A被认为是B
+470,英语单词,patrolled,巡逻的
+471,英语单词,call for,需要
+472,英语单词,vigorously,精神旺盛地
+473,英语单词,clamp down,钳制
+474,英语单词,own....to.....,拥有到
+475,英语单词,prudent,谨慎的
+476,英语单词,notoriously,臭名昭著
+477,英语单词,drawn-out,抽出的
+478,英语单词,get rid of,摆脱
+479,英语单词,fleeting,转瞬即逝的
+480,英语单词,wonder at,惊叹于
+481,英语单词,agenda,议程
+482,英语单词,advent,到来
+483,英语单词,strip of,的条状
+484,英语单词,enterprise,企业
+485,英语单词,equation,方程式
+486,英语单词,justification,正当理由
+487,英语单词,bewildering,令人困惑的
+488,英语单词,terms,条款
+489,英语单词,in cognitive terms,在认知方面
+490,英语单词,empirical,经验主义的
+491,英语单词,universality,普遍性
+492,英语单词,university,大学
+493,英语单词,2013,2013
+494,英语单词,garment,服装
+495,英语单词,odd,古怪的
+496,英语单词,odds,可能性
+497,英语单词,at odds,"不一致,（与…）不和;（与…）意见不一致;（与…）有矛盾"
+498,英语单词,disposable,可任意处理的
+499,英语单词,combat,搏斗
+500,英语单词,long accustomed to,长期习惯
+501,英语单词,satire on,讽刺
+502,英语单词,fraction,小部分
+503,英语单词,quarrel,口角
+504,英语单词,get cracking on,开始破解
+505,英语单词,oblige,迫使
+506,英语单词,comply,遵守
+507,英语单词,indulgence,放纵
+508,英语单词,nudge,轻推
+509,英语单词,utopia,乌托邦
+510,英语单词,tempted to,诱惑
+511,英语单词,gloominess,忧郁
+512,英语单词,flagship,旗舰
+513,英语单词,envisage,想象
+514,英语单词,Naturalization,归化
+515,英语单词,precede,先于
+516,英语单词,eradicate,根除
+517,英语单词,2014,2014
+518,英语单词,fluctuate,波动
+519,英语单词,extent,程度
+520,英语单词,roundabout,迂回的
+521,英语单词,by all accounts,按所有帐户
+522,英语单词,articulate,表达
+523,英语单词,prevailing,盛行
+524,英语单词,pinpoint,准确指出
+525,英语单词,2015,2015
+526,英语单词,kin,家属
+527,英语单词,resemble,类似于
+528,英语单词,assembled,组装的
+529,英语单词,there is more to it,还有更多
+530,英语单词,pick pace,加快步伐
+531,英语单词,ethnic,民族的
+532,英语单词,drawn,绘制的
+533,英语单词,drawn from,绘制自
+534,英语单词,extraction,萃取
+535,英语单词,ancestry,祖先
+536,英语单词,comprehend,理解
+537,英语单词,comprehensive,综合的
+538,英语单词,comprehension,理解力
+539,英语单词,infer,推断
+540,英语单词,implicit,含蓄的
+541,英语单词,discourse,论文
+542,英语单词,utter,说
+543,英语单词,retrieval,检索
+544,英语单词,uncharted,未充电的
+545,英语单词,continent,大陆
+546,英语单词,principal,最重要的
+547,英语单词,principle,道德原则
+548,英语单词,trait,特质
+549,英语单词,proceed,继续
+550,英语单词,prceeding,prceeding
+551,英语单词,owe to,欠
+552,英语单词,look up to,敬仰
+553,英语单词,nobility,贵族
+554,英语单词,adherence,坚持
+555,英语单词,allies,盟友
+556,英语单词,anxious,焦虑的
+557,英语单词,abdicate,退位
+558,英语单词,majestic,雄伟的
+559,英语单词,polarised,极化的
+560,英语单词,embody,体现
+561,英语单词,transcendence,超越
+562,英语单词,transcend,超越
+563,英语单词,infest,大批出没于
+564,英语单词,bizarre,奇怪的
+565,英语单词,strive,努力
+566,英语单词,preserve,保护
+567,英语单词,hierarchical,等级制的
+568,英语单词,refrain,抑制
+569,英语单词,sweeping rule,全面规则
+570,英语单词,reck,reck
+571,英语单词,reckless,鲁莽的
+572,英语单词,defendant,被告人
+573,英语单词,correspond,相一致
+574,英语单词,correspondence,来往信件
+575,英语单词,burdensome,繁重的
+576,英语单词,overly,过度
+577,英语单词,entitle,赋予权利
+578,英语单词,disruptive,引起混乱的
+579,英语单词,sort out,分类
+580,英语单词,circulation,循环
+581,英语单词,impel,促使
+582,英语单词,compel,强迫
+583,英语单词,compelling,引人入胜的
+584,英语单词,overdue,逾期的
+585,英语单词,literate,有读写能力的
+586,英语单词,dearth,缺乏
+587,英语单词,immoral,不道德的
+588,英语单词,moral,道德的
+589,英语单词,cunning,狡猾的
+590,英语单词,trivial,不重要的
+591,英语单词,rigid,固执的
+592,英语单词,unsettling,令人不安的
+593,英语单词,conspire,共谋
+594,英语单词,conspiracy,密谋策划
+595,英语单词,unfold,展开
+596,英语单词,respects,尊重
+597,英语单词,tide,潮
+598,英语单词,a tide of,的浪潮
+599,英语单词,by it's nature,天生的
+600,英语单词,peculiar,特有的
+601,英语单词,peculiar to xxx,xxx特有
+602,英语单词,interplay,相互作用
+603,英语单词,sheer,纯粹的
+604,英语单词,bound for,绑定到
+605,英语单词,bound,跳跃
+606,英语单词,infant,婴儿
+607,英语单词,successive,连续的
+608,英语单词,2016,2016
+609,英语单词,spouse,配偶
+610,英语单词,veto,否决权
+611,英语单词,former,前者的
+612,英语单词,formerly,以前
+613,英语单词,ritual,仪式
+614,英语单词,cotton thread,棉线
+615,英语单词,soak,浸泡
+616,英语单词,wrist,手腕
+617,英语单词,waist,腰
+618,英语单词,whereas,鉴于
+619,英语单词,whereby,由此
+620,英语单词,a tenth of,的十分之一
+621,英语单词,competence,能力
+622,英语单词,compete,竞争
+623,英语单词,complete,完成
+624,英语单词,norm,标准
+625,英语单词,evolve,发展
+626,英语单词,fragment,碎片
+627,英语单词,paradox,矛盾的人
+628,英语单词,pull off,起飞
+629,英语单词,in a rut,墨守成规
+630,英语单词,vain,徒劳的
+631,英语单词,fussing,大惊小怪的
+632,英语单词,fatigue,疲劳
+633,英语单词,retain,保持
+634,英语单词,newlywed,新婚夫妇
+635,英语单词,thrive,兴旺发达
+636,英语单词,innovator,革新者
+637,英语单词,incite,煽动
+638,英语单词,preliminary,预备性的
+639,英语单词,parliament,议会
+640,英语单词,a couple of,几个
+641,英语单词,uplifting,隆起
+642,英语单词,end up doing,最终做了
+643,英语单词,tape-measure,卷尺
+644,英语单词,arbiter,仲裁人
+645,英语单词,intangible,无形的
+646,英语单词,adornment,装饰
+647,英语单词,sanction,制裁
+648,英语单词,didn’t start till …,没有开始。。。
+649,英语单词,rural,乡村的
+650,英语单词,urban,城市的
+651,英语单词,disregard,漠视
+652,英语单词,enviable,令人羡慕
+653,英语单词,inevitable,不可避免的
+654,英语单词,guardianship,监护
+655,英语单词,endorse,背书
+656,英语单词,explicit,明确的
+657,英语单词,likewise,同样地
+658,英语单词,terror,恐怖
+659,英语单词,sensible,明智的
+660,英语单词,intrusion,入侵
+661,英语单词,let rip,放任自流
+662,英语单词,spectrum,谱
+663,英语单词,monetary,货币的
+664,英语单词,diffuse,弥漫的
+665,英语单词,confuse,混淆
+666,英语单词,n短语+aside,n短语+aside
+667,英语单词,nostalgia,怀旧
+668,英语单词,ditch,沟
+669,英语单词,2017,2017
+670,英语单词,resound,回响
+671,英语单词,resounding,巨大的
+672,英语单词,a host of,许多
+673,英语单词,perceive,感知
+674,英语单词,susceptibility,敏感性
+675,英语单词,intimi,亲密的
+676,英语单词,intimacy,亲密
+677,英语单词,intimate,亲密的
+678,英语单词,intimidate,恐吓
+679,英语单词,panorama,全景
+680,英语单词,plot,情节
+681,英语单词,clerk,店员
+682,英语单词,steward,乘务员
+683,英语单词,conceal,隐藏
+684,英语单词,suppose,认为
+685,英语单词,supposed,假定的
+686,英语单词,supposedly,据推测
+687,英语单词,flee,逃走
+688,英语单词,bleak,凄凉的
+689,英语单词,confide,倾诉
+690,英语单词,errand,差使
+691,英语单词,runaway,失控
+692,英语单词,content,所容纳之物
+693,英语单词,contented,知足的
+694,英语单词,contentedness,满足
+695,英语单词,curriculum,课程
+696,英语单词,discipline,纪律
+697,英语单词,principle,道德原则
+698,英语单词,principal,最重要的
+699,英语单词,primary school,小学
+700,英语单词,appear to,看起来像
+701,英语单词,appeal to,呼吁
+702,英语单词,vanish,消失
+703,英语单词,domestic,本国的
+704,英语单词,tragic,悲剧的
+705,英语单词,infuriate,使极为生气
+706,英语单词,sneak,偷偷地走
+707,英语单词,steep,陡的
+708,英语单词,steep increase,急剧增加
+709,英语单词,lane,小路
+710,英语单词,lame,瘸的
+711,英语单词,dispute,争端
+712,英语单词,be supposed to,应该
+713,英语单词,eligible,有资格的
+714,英语单词,enroll,登记
+715,英语单词,sticker shock,贴纸冲击
+716,英语单词,sticker price,标价
+717,英语单词,price tag,价格标签
+718,英语单词,fatal flaw,致命缺陷
+719,英语单词,reluctance to back it,不愿支持它
+720,英语单词,slight hesitancy,轻微犹豫
+721,英语单词,protest,抗议
+722,英语单词,dormant,休眠的
+723,英语单词,the bulk of,的大部分
+724,英语单词,bulk,大部分
+725,英语单词,vocal,嗓音的
+726,英语单词,dawn,黎明
+727,英语单词,enlighten,启发
+728,英语单词,remold,重塑
+729,英语单词,defy,藐视
+730,英语单词,except,除了
+731,英语单词,expect,预料
+732,英语单词,despite,即使
+733,英语单词,prospect,展望
+734,英语单词,shed,棚
+735,英语单词,consistent,一致的
+736,英语单词,constitute,构成
+737,英语单词,constituents,成分
+738,英语单词,doom,死亡
+739,英语单词,boom,繁荣
+740,英语单词,sizable,可观的
+741,英语单词,sarcastic,讽刺的
+742,英语单词,convict,罪犯
+743,英语单词,exempt,豁免
+744,英语单词,unanimous,一致的
+745,英语单词,ethic,伦理
+746,英语单词,ethnic,民族的
+747,英语单词,concrete,混凝土
+748,英语单词,prosecution,起诉
+749,英语单词,precautions,注意事项
+750,英语单词,reinforce,加强
+751,英语单词,enforce,执行
+752,英语单词,lobby,大堂
+753,英语单词,perception,知觉
+754,英语单词,premise,前提
+755,英语单词,2018,2018
+756,英语单词,tricky,棘手的
+757,英语单词,herd,兽群
+758,英语单词,herd instinct,从众本能
+759,英语单词,spary,蒸气
+760,英语单词,erect,垂直的
+761,英语单词,elaborate,复杂的
+762,英语单词,diplomatic,外交的
+763,英语单词,reception,接待
+764,英语单词,receptive,乐于接受的
+765,英语单词,orient,朝向
+766,英语单词,oriental,东方的
+767,英语单词,formulate,制定
+768,英语单词,formular,公式制定者
+769,英语单词,command,命令
+770,英语单词,supervise,监督
+771,英语单词,prosper,繁荣
+772,英语单词,prospect,展望
+773,英语单词,ironic,反语的
+774,英语单词,chronic,慢性的
+775,英语单词,dismiss,不予考虑
+776,英语单词,occupation,工作
+777,英语单词,vocation,职业
+778,英语单词,upheaval,剧变
+779,英语单词,affordable,买得起的
+780,英语单词,drastic,激烈的
+781,英语单词,upend,倒立
+782,英语单词,indispensable,不可或缺的
+783,英语单词,dispensable,不必要
+784,英语单词,Millennials,千禧一代
+785,英语单词,conduct,行为
+786,英语单词,take account of,考虑
+787,英语单词,account for,对…负有责任
+788,英语单词,assume responsibility,承担责任
+789,英语单词,foster,促进
+790,英语单词,counteract,抵制
+791,英语单词,verdict,判决
+792,英语单词,damning,该死的
+793,英语单词,hand over,移交
+794,英语单词,2019,2019
+795,英语单词,accuse,指责
+796,英语单词,undermine,破坏
+797,英语单词,coherent,连贯的
+798,英语单词,inherent,固有的
+799,英语单词,aversion,厌恶
+800,英语单词,averse,厌恶
+801,英语单词,profound,意义深远的
+802,英语单词,lay press,平压机
+803,英语单词,health scares,健康恐慌
+804,英语单词,boil down,煮沸
+805,英语单词,metrics,度量
+806,英语单词,research post,研究岗位
+807,英语单词,apply for,申请
+808,英语单词,apply to,适用于
+809,英语单词,incorporate,合并
+810,英语单词,corporation,公司
+811,英语单词,entail,涉及
+812,英语单词,merit,优点
+813,英语单词,Above all,首先
+814,英语单词,spot,斑点
+815,英语单词,distinct,不同的
+816,英语单词,bearing,关系
+817,英语单词,restore,恢复
+818,英语单词,trail,追踪
+819,英语单词,trial,试验
+820,英语单词,trait,特质
+821,英语单词,impose,强制实行
+822,英语单词,pose,姿势
+823,英语单词,worsen,恶化
+824,英语单词,publicly traded company,上市公司
+825,英语单词,quarterly,每季的
+826,英语单词,hinder,阻碍
+827,英语单词,dubbed,配音的
+828,英语单词,thus,因此
+829,英语单词,predominance,优势
+830,英语单词,defer,推迟
+831,英语单词,tied to,绑定到
+832,英语单词,acquisition,获得
+833,英语单词,incentive,激励
+834,英语单词,solid,固体
+835,英语单词,adverse,不利的
+836,英语单词,diverse,多种多样的
+837,英语单词,virtue,美德
+838,英语单词,decisiveness,果断
+839,英语单词,clawback,钩回
+840,英语单词,utmost,最大的
+841,英语单词,penalty,处罚
+842,英语单词,emphasize,强调
+843,英语单词,substantial,大量的
+844,英语单词,substitution,替代
+845,英语单词,sustainable,可持续的
+846,英语单词,counterbalance,平衡
+847,英语单词,complement,补足
+848,英语单词,contradictory,矛盾的
+849,英语单词,identical,完全相同的
+850,英语单词,feasibility,可行性
+851,英语单词,retention,保持
+852,英语单词,tuition,学费
+853,英语单词,align,排列
+854,英语单词,spark,火花
+855,英语单词,fascinate,入迷
+856,英语单词,speculate,推测
+857,英语单词,speculate fiction,推测小说
+858,英语单词,foreshadow,预示
+859,英语单词,evade,逃避
+860,英语单词,depict,描绘
+861,英语单词,sophisticate,老练的
+862,英语单词,thorny,多刺的
+863,英语单词,get into,进入
+864,英语单词,mega-xxx,超级xxx
+865,英语单词,pledge,誓言
+866,英语单词,pled,pled
+867,英语单词,vague,模糊的
+868,英语单词,transparent,透明的
+869,英语单词,overrule,否决
+870,英语单词,overturn,颠覆
+871,英语单词,even做adj,even做adj
+873,英语单词,nonetheless,尽管如此
+874,英语单词,culinary,烹饪的
+875,英语单词,render,提供
+876,英语单词,compel,强迫
+877,英语单词,impel,促使
+878,英语单词,guaranteed to （damage our health）,保证（损害我们的健康）
+879,英语单词,toast,干杯
+880,英语单词,mice,小鼠
+881,英语单词,rumoured,据传
+882,英语单词,doubtless,无疑的
+883,英语单词,coming across as being pushy,给人的印象是咄咄逼人
+884,英语单词,self-deceiving,自欺欺人的
+885,英语单词,endeavor,努力
+886,英语单词,navigation,航行
+887,英语单词,maintain its image,维护其形象
+888,英语单词,aspiration,渴望
+889,英语单词,commit to,承诺
+890,英语单词,object,对象
+891,英语单词,objective,客观的
+892,英语单词,institute v.,协会v。
+893,英语单词,crown,王冠
+894,英语单词,an avalanche of,突然到来的一大批
+895,英语单词,confine,限制
+896,英语单词,booby prize,博比奖
+897,英语单词,prestigious,有声望的
+898,英语单词,sought-after,备受追捧
+899,英语单词,cynic,愤世嫉俗的
+900,英语单词,desperation,绝望
+901,英语单词,reinvent,重新发明
+902,英语单词,suburb,郊区
+903,英语单词,hamlet,哈姆雷特
+904,英语单词,nudge,轻推
+905,英语单词,bolder,更大胆
+906,英语单词,peculiarities,特性
+907,英语单词,profit margins,利润率
+908,英语单词,desperate effort,不顾一切的努力
+909,英语单词,thoroughly,非常
+910,英语单词,paywall,付费墙
+911,英语单词,legitimacy,合法性
+912,英语单词,general release,一般放行
+913,英语单词,relieved,释然的
+914,英语单词,progressives,进步派
+915,英语单词,mandate,授权
+916,英语单词,privileged,有特权的
+917,英语单词,bills,账单
+918,英语单词,parity,对等
+919,英语单词,propose,提议
+920,英语单词,frowns on,皱眉头
+921,英语单词,prior,先前的
+922,英语单词,arbitrary,任意的
+923,英语单词,feasibility,可行性
+924,英语单词,multinational,跨国公司
+925,英语单词,gross revenue,总收入
+926,英语单词,levy,征收
+927,英语单词,unilateral,单方面的
+928,英语单词,provision,提供
+929,英语单词,putting in place,就位
+930,英语单词,contemplate,沉思
+931,英语单词,contempt,蔑视
+932,英语单词,to name but a few,仅举几个例子
+933,英语单词,consensus,一致的意见
+934,英语单词,cascade,大量
+935,英语单词,leads the charge on,引导冲锋
+936,英语单词,antagonistic,拮抗的
+937,英语单词,compliment,恭维
+938,英语单词,complimentary,免费的
+939,英语单词,backfire,适得其反
+940,英语单词,convince,说服
+941,英语单词,brief,简明的
+942,英语单词,departure,离开
+943,英语单词,disposition,性情
+944,英语单词,eclipsed,黯然失色的
+945,英语单词,integrate,整合
+946,英语单词,integrity,诚实正直
+947,英语单词,2021,2021
+948,英语单词,fluid,液体
+949,英语单词,have to do with,与…有关
+950,英语单词,level out,整平
+951,英语单词,alternatively,或者
+952,英语单词,abdomen,腹部
+953,英语单词,conclude,断定
+954,英语单词,include,包括
+955,英语单词,attributable to,归因于
+956,英语单词,formation,组成
+957,英语单词,prescription,处方
+958,英语单词,aerobic exercise,有氧运动
+959,英语单词,eliminate,排除
+960,英语单词,justify,证明正当
+961,英语单词,xxx on the ground that xxx,xxx的理由是xxx
+962,英语单词,pensioner,养老金领取者
+963,英语单词,pension,退休金
+964,英语单词,commute,通勤
+965,英语单词,travail,阵痛
+966,英语单词,relatively,相当地
+967,英语单词,trumpeting,吹喇叭
+968,英语单词,sum,总和
+969,英语单词,disruption,中断
+970,英语单词,corruption,腐败
+971,英语单词,indefinitely,无限期地
+972,英语单词,definitely,肯定
+973,英语单词,chaos,混乱
+974,英语单词,with a vengeance,复仇地
+975,英语单词,bleak rate,惨淡的比率
+976,英语单词,alleviation,减轻
+977,英语单词,correlate,相关
+978,英语单词,degradation,堕落
+979,英语单词,causality,因果关系
+980,英语单词,cattle,牛
+981,英语单词,satelite,人造卫星
+982,英语单词,makeshift,临时的
+983,英语单词,inclement,恶劣的
+984,英语单词,elsewhere,在别处
+985,英语单词,preoccupied with,全神贯注
+986,英语单词,shatter,粉碎
+987,英语单词,quite a stir,相当轰动
+988,英语单词,concede,让步
+989,英语单词,notion,概念
+990,英语单词,stiff,不易弯曲的
+991,英语单词,backdrop,背景
+992,英语单词,convention,习俗
+993,英语单词,controversial,引起争论的
+994,英语单词,conservative,保守的
+995,英语单词,notoriously,臭名昭著
+996,英语单词,copper,铜
+997,英语单词,blur,变得模糊不清
+998,英语单词,ragged,衣衫褴褛的
+999,英语单词,limb,肢
+1000,英语单词,grin,咧嘴笑
+1001,英语单词,instant,瞬间
+1002,英语单词,maxim,格言
+1003,英语单词,allude,暗指
+1004,英语单词,proper,适当的
+1005,英语单词,hygiene,卫生
+1006,英语单词,tramp,流浪汉
+1007,英语单词,portrait,肖像
+1008,英语单词,thought-provoking,发人深省
+1009,英语单词,over,结束
+1010,英语单词,⚠️ over后边跟的东西可能是相反的,⚠️ over后边跟的东西可能是相反的
+1011,英语单词,favor A over B,赞成A而不赞成B
+1012,英语单词,喜欢A不喜欢B,喜欢A不喜欢B
+1013,英语单词,partial,部分的
+1014,英语单词,impartial,公正的
+1015,英语单词,parity,对等
+1016,英语单词,intensify,强化
+1017,英语单词,appeal,上诉
+1018,英语单词,prolong,延长
+1019,英语单词,district,地区
+1020,英语单词,circuit,环行
+1021,英语单词,concur,同意
+1022,英语单词,sinister,不祥的
+1023,英语单词,impend,阻抗
+1024,英语单词,manufacturing,制造业
+1025,英语单词,premiums,保费
+1026,英语单词,2022,2022
+1027,英语单词,take root,深入人心
+1028,英语单词,have some degreed of,有一定程度的
+1029,英语单词,coin,硬币
+1030,英语单词,analogous,相似的
+1031,英语单词,superficially,表面上
+1032,英语单词,humble,谦逊的
+1033,英语单词,melt,熔化
+1034,英语单词,dizzying,令人眼花缭乱
+1035,英语单词,decay,衰退
+1036,英语单词,infuse,注入
+1037,英语单词,worn,穿坏的
+1038,英语单词,albeit,尽管
+1039,英语单词,stake,桩
+1040,英语单词,at stake,濒临险境
+1041,英语单词,crop,庄稼
+1042,英语单词,decent,得体的
+1043,英语单词,wanting,缺少
+1044,英语单词,mobility,流动性
+1045,英语单词,school leavers,离校生
+1046,英语单词,scrap,碎片
+1047,英语单词,collaboration,协作
+1048,英语单词,roughly,粗略地
+1049,英语单词,facilitating,便利
+1050,英语单词,inhibit,阻止
+1051,英语单词,hence,因此
+1052,英语单词,simultaneous,同时的
+1053,英语单词,vice versa,反之亦然
+1054,英语单词,stereotype,刻板印象
+1055,英语单词,alike,同样地
+1056,英语单词,immerse,沉浸在
+1057,英语单词,interdisciplinary,跨学科的
+1058,英语单词,grievance,冤屈
+1059,英语单词,provision,提供
+1060,英语单词,arbitrary,任意的
+1061,英语单词,dubious,怀疑
+1062,英语单词,attest,证明
+1063,英语单词,handbrake,手刹
+1064,英语单词,mediocrity,平庸
+1065,英语单词,excessive,过分的
+1066,英语单词,stringent,严格的
+1067,英语单词,hamper,妨碍
+1068,英语单词,permit,许可证
+1069,英语单词,contract out,外包
+1070,英语单词,unwieldy,笨手笨脚的
+1071,英语单词,headquarter,总部
+1072,英语单词,Just as,正如
+1073,英语单词,relevance,关联
+1074,英语单词,tale,故事
+1075,英语单词,comprise,包含
+1076,英语单词,titanic,巨大的
+1077,英语单词,merciless,毫不怜悯的
+1078,英语单词,speak volumes,讲话音量
+1079,英语单词,sympathy,同情
+1080,英语单词,in sympathy with,同情
+1081,英语单词,convention,习俗
+1082,英语单词,accommodation,住处
+1083,英语单词,entitle,赋予权利
+1084,英语单词,inedible,不能食用的
+1085,英语单词,disparage,贬损
+1086,英语单词,disparaging,贬低
+1087,英语单词,extravagant,奢侈的
+1088,英语单词,exaggeration,夸张
+1089,英语单词,aggressive,侵略性的
+1090,英语单词,ingenuity,聪明才智
+1091,英语单词,nasty,肮脏的
+1092,英语单词,compulsion,强迫
+1093,英语单词,confer,商讨
+1094,英语单词,glimpse,一瞥
+1095,英语单词,barrel,桶
+1096,英语单词,crude,原油
+1097,英语单词,terminally,最终地
+1098,英语单词,dosage,剂量
+1102,英语作文,越来越多的人xx,An increasing number of people are beginning to xxx that xxx
+1103,英语作文,成功抓住我们的眼球,Which successfully captures our eyes
+1104,英语作文,最后完成了两幅图片的对比,finally completing the contrast of the two pictures
+1105,英语作文,显然，这两幅图所巧妙传达的内容应该引起关注。,"obviously, what the two drawings have subtly conveyed is supposed to be given concern."
+1106,英语作文,漫画家在图片中表达的东西可以简单且准确的总结为：xxx在日常生活中起到了重要作用,What the cartoonist has conveyed in the pictures can be clearly and accurately summarized as following: xxx plays a vital role in our daily life
+1107,英语作文,根据上边的描述,"According to the above analysis, xxx"
+1108,英语作文,如果你能对某事进行改进，我们就有更多的机会去xx,We could have more opportunities to xxx if you improve xxx
+1109,英语作文,xxx是明智的，这能够帮助我们xxx,"It is advisable to xxx, which can really help us xxxx"
+1110,英语作文,对于我xxx具体的原因在下边给出,The detailed reasons for my xxx can be given as follows
+1111,英语作文,举办地点和时间,"The meeting is to be held in xxx at 8:00 a.m., on Sunday, December 24th"
+1112,机组,NAND Flash只能顺序存取,see
+1114,肖八第一套,xxx价值的物质承担者都是,使用价值
+1115,肖八第一套,当前资本主义最突出、最鲜明、最主要的特征,国际金融资本的垄断
+1116,肖八第一套,中特的形成、轮廓、成熟、进一步成熟、新篇章,十二大 开篇之作 邓小平理论  ｜轮廓   十三大  ｜成熟   南方谈话  ｜进一步成熟   十七大  ｜新篇章   十八大
+1117,肖八第一套,习近平中特思想中发挥统摄作用的是,十个明确
+1118,肖八第一套,推进高质量发展的战略基点,鸡哥，加快构建新发展格局
+1119,肖八第一套,新文化运动分五四前和后，看题目时间，如果是1919五四运动前就找资本主义,see
+1120,肖八第一套,宋庆龄,《中国人民对日作战的基本纲领》
+1121,肖八第一套,新中国成立那会，对党合作相关，奠定中国共产党多党合作基础、揭开多党建国序幕,五一口号
+1122,肖八第一套,表明各党派自愿接受中国共产党领导的,民主党派《对时局的意见》
+1123,肖八第一套,共建一带一路的力量源泉,和平合作、开放包容、互学互鉴、互利共赢的丝路精神
+1124,肖八第一套,标志简单商品生产发展到资本主义商品生产的新阶段,劳动力成为商品
+1125,肖八第一套,俄国新经济政策和战时的区别,战时是取消商品经济，新经济是收税代替收集，恢复商品经济
+1126,肖八第一套,抗日民族统一战线的中间势力,开明绅士、民族资产阶级、地方实力派
+1127,肖八第一套,中特之所以是社会主义，根本在于,坚持科社原则、坚持党的领导（只有两点）
+1128,肖八第一套,我们区别于其他国家和民族的根本特征,优秀传统文化
+1129,肖八第一套,标志明确提出统一战线政策的会议,中共二大
+1130,肖八第一套,马克思主义与中国的第一次结合,六届六中《论新阶段》，之后在七大实现飞跃
+1131,肖八第一套,第二次结合（⚠️不是两个结合，⚠️第二次和第二个的区别）,《论十大关系》，第二次结合的飞跃是改革开放，飞跃的成果就是中特
+1132,肖八第一套,依法治国的根本遵循和行动指南,习近平法治思想
+1133,肖八第二套,金融资本的形成主要通过,金融联系、资本参与、人事参与
+1134,肖八第二套,土地革命的主要和直接任务,满足贫雇农群众的要求
+1135,肖八第二套,毛泽东独立自主思想最初的明确表达著作,《反对本本主义》
+1136,肖八第二套,坚持四个自信的理论支持和根本依据,社会主义必然代替资本主义的客观规律
+1137,肖八第二套,全面深化改革的关键所在,解放和增强社会活力
+1138,肖八第二套,总体国家安全观处于中心位置的是,人民安全
+1139,肖八第二套,周边外交理念,亲诚惠容
+1140,肖八第二套,一带一路的主线,互联互通
+1141,肖八第二套,单位时间生产的价值总量是不变的，单位劳动时间内劳动者所耗费的劳动量不变,see
+1142,肖八第二套,中国共产党的根本政治立场,人民立场
+1143,肖八第二套,中华文明的连续性决定了,必然走自己的路
+1144,肖八第二套,法治社会的基础工程,全民守法
+1145,肖八第二套,法治的龙头环节,立法
+1146,肖八第三套,使用价值和价值的矛盾、具体劳动和抽象劳动的矛盾的根源,私人劳动和社会劳动的矛盾（不是商品和货币的矛盾，商品货币矛盾是一个外在矛盾）
+1147,肖八第三套,新民主主义的主要内容,没收封建地主阶级的土地归农民所有
+1148,肖八第三套,新民主主义的根本目的,推翻反动腐朽的政治上层建筑，变革阻碍生产力发展的生产关系
+1149,肖八第三套,社会主义现代化强国的根基,农业强国
+1150,肖八第三套,中国旧式农民战争的最高峰,太平天国
+1151,肖八第三套,开启改革开放的新时期、把改革开放推向新阶段,十一届三中全会、南方谈话
+1152,肖八第三套,首届中国-中亚峰会的最重要的政治成果,构建更加紧密的中亚命运共同体
+1153,肖八第三套,认识世界改造世界的根本矛盾,客观与主观的矛盾
+1154,肖八第三套,整风运动胜利的标志,六届七中全会《关于若干历史问题的决议》
+1155,肖八第四套,毛泽东思想的精髓，毛泽东思想的基本点,实事求是
+1156,肖八第四套,依宪治国的首要任务,全面贯彻实施宪法
+1157,肖八第四套,党对军队的绝对领导的根本原则和制度,"发端于南昌起义,奠基于三湾改编,定型于古田会议"
+1158,肖八第四套,抗日战争胜利的决定性因素,以爱国主义为核心的名族精神
+1159,肖八第四套,工资是什么的价值,劳动力的价值，劳动力的价值就是那个线段的前半段
+1160,肖八第四套,过渡时期总路线的现实依据,1. 国营经济依据在国家经济生活中相对强大的地位（对的）、还有说国际形势也是对的
+1161,肖八第四套,列强镇压中国人民的反抗是什么方面,政治控制
+1162,肖八第四套,中国的法治同西方资本主义国家法治最大的区别,坚持党的领导
+1163,肖八第五套,当代中国哲学社会科学区别于其他哲学社会科学的根本标志,坚持马克思主义为指导
+1164,肖八第五套,推进中国式现代化的生力军,民营经济
+1165,肖八第五套,人生观和世界观的关系,世界观决定人生观
+1166,肖八第六套,新民主主义革命胜利的基本经验,战斗党
+1167,肖八第六套,全面深化改革的主线,制度建设
+1168,肖八第六套,中国共产党和中国革命事业从挫折走向胜利的伟大转折,长征
+1169,肖八第六套,新民主主义社会的五种经济形式中的过渡形式,合作社经济、国家资本主义经济（从私人资本主义到国营经济的过渡）
+1170,肖八第六套,彻底完成民主革命遗留任务的标志,1952年土地改革的完成
+1171,肖八第六套,批判左倾错误的会议,瓦窑堡
+1172,肖八第六套,批判右倾主义的会议,六届六中全会（瓦左六右）
+1173,其他政治模拟题,国共第一次合作的标志,国民党一大确立联俄、联共、辅助工农
+1174,其他政治模拟题,个人理想和社会理想的关系实质,个人和社会关系在理想层面的反映
+1175,其他政治模拟题,个人与社会的关系最根本的是,个人利益与社会利益的关系
+1176,其他政治模拟题,列宁提出的论断,找胜利就完了，他提的都是胜利。如果提到社会主义在多个资本主义国家同时发生，这是马恩的观点
+1177,肖八第六套,中国苏维埃共和国是局部尝试还是全国尝试,局部执政的重要尝试
+1178,其他政治模拟题,三三制原则中的中间势力和抗日统一战线的中间势力的区别,三三制没有地方实力派
+1179,其他政治模拟题,维系好人际关系和社会关系的基本价值准则,友善
+1180,顺口溜,科学发展观的帽子,鸡圈要发核仁
+1181,其他政治模拟题,社会主义法律的基本属性,平等
+1182,其他政治模拟题,构建人类共同体，关键是什么，首要是什么,首要是信息和决心。关键是行动
+1183,其他政治模拟题,乡村振兴重中之重，实际工作的切入点,产业振兴
+1184,其他政治模拟题,教育强国的根本目的,为国育才
+1185,其他政治模拟题,拨乱反正完成的标志,《建国以来xxx的决议》 十一届六中全会
+1186,顺口溜,全面依法治国相关 前提、关键、重点、基础,李前只管四种手机
+1187,其他政治模拟题,教育强国相关 任务、目标、使命,任务：立德树人｜ 目标：为党育人｜重要使命：伟大复兴
+1188,其他政治模拟题,抗战胜利相关 法宝、关键、决定,统一战线、党的领导、精神
+1189,其他政治模拟题,祖国统一相关 保证、方针、基础,党领导、一国两制、九二共识
+1190,其他政治模拟题,具体劳动能否还原为抽象劳动，从根本上取决于？和？的统一,私人劳动和社会劳动的统一（也是商品经济的矛盾）
+1191,顺口溜,高质量发展相关,科比｜鸡哥｜农药｜罪人｜神仙
+1192,肖八第七套,人的发展中最根本的是,人的自由程度的提高
+1193,肖八第七套,资本集中最强有力的杠杆,竞争和信用
+1194,肖八第七套,发展教育的根本尺度,人民满意
+1195,肖八第七套,乡村振兴的底线任务,巩固成果
+1196,肖八第七套,三农工作的中心任务,增加农民收入
+1197,肖八第七套,乡村振兴的重中之重、实际工作的切入点,产业振兴
+1198,肖八第七套,开启了党独立自主解决中国革命实际问题的新阶段的会议,遵义会议
+1199,肖八第八套,出发点和落脚点,找人民（军队除外）
+1200,肖八第八套,构建统筹各领域安全的新安全格局的主阵地主战场,维护重点领域国家安全
+1201,肖八第八套,关于罢工,开始：香港 ｜ 终点：京汉｜ 中共第一次独立领导并完全胜利：安源路 ｜ 最长的一次：省港
+1202,其他政治模拟题,全面建成社会主义现代化国家的首要任务,推进高质量发展
+1203,肖四第四套,根据资本在生育价值生产中起的不同作用，可分为,不变资本和可变资本
+1204,顺口溜,资本根据周转方式和价值转移方式的不同分为,固定资本和流动资本（泥石流）
+1205,肖四第四套,资本在循环中的不同职能把资本分为,货币资本、生产资本、商品资本
+1206,肖四第四套,2023年时政 京津冀、深圳、浦东、浙江,中国式现代化建设的先行区示范区、中特先行示范区、浦东新区社会主义现代化建设引领区、浙江共同富裕示范区
+1207,肖四第四套,多党合作建国时候的一些问题,五一口号：序幕、奠定基础｜《对时局意见》：自愿接受领导｜毛泽东谈话提出：积极参政。共同建设新中国：标志着民主党派地位发生根本变化
+1208,肖四第四套,客观规律性和主观能动性统一的基础,实践
+1209,肖四第四套,运动绝对、静止相对,运动不能说相对
+1210,肖四第四套,引进来,是1997年提出的对外开放
+1211,肖四第四套,重新确立党的马克思主义思想路线、政治路线、组织路线的会议,十一届三中全会
+1212,顺口溜,统筹推进各领域各方改革开放,在关口重金购买蜘蛛线
+1213,肖四第四套,支部建在连上,三湾改编
+1214,其他政治模拟题,全面觉醒,五四运动
+1215,其他政治模拟题,战略防御阶段和相持阶段国名党的态度,防御：片面，相持：消极
+1216,其他政治模拟题,中国历史上最伟大最深刻的社会变革,三大改造完成
+1217,其他政治模拟题,人生观的核心,人生目的
+1218,顺口溜,影响资本周转快慢的因素有,资本周转时间、有机构成比例（泥石流）
+1219,其他政治模拟题,确立毛泽东领导地位的会议,遵义会议
+1220,其他政治模拟题,批判陈独秀右倾机会主义的会议,八七会议

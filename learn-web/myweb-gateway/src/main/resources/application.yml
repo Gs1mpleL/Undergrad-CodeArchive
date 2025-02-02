@@ -1,0 +1,55 @@
+server:
+  port: 80
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: bilibili
+          uri: lb://myweb-crawler
+          predicates:
+            - Path=/api/myweb-crawler/**
+          filters:
+            - StripPrefix=2
+        - id: user
+          uri: lb://myweb-user
+          predicates:
+            - Path=/api/myweb-user/**
+          filters:
+            - StripPrefix=2
+        - id: learn
+          uri: lb://myweb-learn
+          predicates:
+            - Path=/api/myweb-learn/**
+          filters:
+            - StripPrefix=2
+        - id: job
+          uri: lb://myweb-job
+          predicates:
+            - Path=/api/myweb-job/**
+          filters:
+            - StripPrefix=2
+
+# knife4j 网关聚合
+knife4j:
+  gateway:
+    enabled: true
+    # 指定服务发现的模式聚合微服务文档，并且是默认 default 分组
+    strategy: discover
+    discover:
+      # OpenAPI 3.0 规范
+      version: openapi3
+      enabled: true
+# springdoc-openapi 项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan:
+        # 配置接口文档扫描包路径，每个服务的路径不同
+        - com.wanfeng.myweb

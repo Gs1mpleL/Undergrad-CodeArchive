@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.142.6.179:3306/my_web?serverTimezone=GMT%2B8
+    username: root
+    password: Liuzhuohao123
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://8.142.6.179:8848
+      config:
+        server-addr: http://8.142.6.179:8848
+        file-extension: yaml

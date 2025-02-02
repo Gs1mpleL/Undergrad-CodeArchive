@@ -11,7 +11,7 @@ public class countDownLaunchDemo {
         CountDownLatch countDownLatch = new CountDownLatch(3);
         pool.execute(()->{
             try {
-                Thread.sleep(1000);
+                 Thread.sleep(10000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

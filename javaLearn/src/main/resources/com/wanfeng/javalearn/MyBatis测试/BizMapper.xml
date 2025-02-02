@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanfeng.javalearn.MyBatis测试.BizMapper">
+    <insert id="insertOrDelete">
+        insert into t_biz(id,data) values
+        <foreach collection="entities" item="item" separator=",">
+            (#{item.id},#{item.data})
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        is_delete='N'
+    </insert>
+
+
+    <update id="updateById">
+        update t_biz
+            set data=#{et.data},is_delete=#{et.isDelete}
+            <where>
+                id=#{et.id}
+            </where>
+    </update>
+</mapper>
